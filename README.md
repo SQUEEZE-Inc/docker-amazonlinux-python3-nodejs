@@ -2,5 +2,5 @@
 
 - AmazonLinux 2018.03
 - Python 3.6.x
-- nodejs 8.x
-  - npm 5.x
+- nodejs 12.x
+  - npm 6.x

@@ -1,8 +1,8 @@
 FROM amazonlinux:2018.03
 
-RUN curl -LO https://rpm.nodesource.com/setup_8.x && \
-    echo "dbe7dc4713984caaa96092b827fd149e setup_8.x" | md5sum -c - && \
-    /bin/sh setup_8.x && \
+RUN curl -LO https://rpm.nodesource.com/setup_12.x && \
+    echo "b0b051bee21f8f771ac8b4c20da179bd setup_12.x" | md5sum -c - && \
+    /bin/sh setup_12.x && \
     mkdir -m 777 -pv /.npm /.config && \
     yum -y install \
         gcc \
